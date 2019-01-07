@@ -1,4 +1,4 @@
-package io.github.remen.gradlecodegeneration
+package io.github.remen.codegeneration
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

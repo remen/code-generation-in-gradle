@@ -1,6 +1,6 @@
 buildscript {
     dependencies {
-        classpath("org.gradle.sample:url-verifier-plugin:1.0")
+        classpath("io.github.remen:code-generation-plugin:latest")
     }
 }
 
@@ -8,7 +8,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version("1.3.11")
 }
 
-apply(plugin = "io.github.remen:code-generation-plugin:latest")
+apply(plugin = "io.github.remen.codegeneration")
 
 repositories {
     jcenter()
