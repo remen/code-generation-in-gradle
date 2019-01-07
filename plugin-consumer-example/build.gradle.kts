@@ -8,7 +8,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version("1.3.11")
 }
 
-apply(plugin = "io.github.remen.codegeneration")
+apply(plugin = "codegeneration-example-plugin")
 
 repositories {
     jcenter()
