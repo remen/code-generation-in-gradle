@@ -3,9 +3,9 @@ package io.github.remen.codegeneration
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 
-open class HelloWorldTask : DefaultTask() {
+open class CodeGenerationTask : DefaultTask() {
     @TaskAction
-    fun taskAction() {
+    fun run() {
         println("Hello World")
     }
 }
